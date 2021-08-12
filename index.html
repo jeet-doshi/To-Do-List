@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>To-Do List</title>
+    </head>
+    <body>
+       <div class="block">   
+            <div class="container">
+                <h2 class="heading">To-Do App</h2>
+                <label style="font-weight: bold;">New To-Do</label>
+                <br>
+<!-- Input Box -->  <input type="text" placeholder="Please enter an activity" id="name"  class="input-box" /> 
+<!-- Button    -->  <input type="button" value="Add ToDo" id="btn-click" class="btn" onclick="addMore()" />
+                <span id="error"></span>
+                <h3>To-Do List</h3>
+                <hr size="1" width="100%" color="white">
+                <ul id="box"></ul>
+            </div>
+    
+            <!-- <div class="container container-two" >
+                 <ul id="box" style="color: white;"></ul>
+            </div> -->
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
